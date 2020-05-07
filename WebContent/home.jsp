@@ -398,11 +398,10 @@ nav .badge {
 				</div>
 				<div class="card-content">
 					<span class="card-title"> <%
- 	out.println(topic);
  		out.println(title);
  %>
 					</span>
-					<span style="display:block;text-overflow: ellipsis;width: 300px;overflow: hidden; white-space: nowrap;">
+					<span style="display:block;text-overflow: ellipsis;width: 250px;overflow: hidden; white-space: nowrap;">
 							<%
 								out.println(desc);
 							%>
